@@ -1,5 +1,5 @@
 {
-  "include": ["src/assets/ts/**/*"],
+  "include": ["src/assets/ts/**/*", "src/assets/js/index.mjs", "src/assets/js/User.js"],
   "compilerOptions": {
       "target": "ES2022",
       "module": "ES2022",
