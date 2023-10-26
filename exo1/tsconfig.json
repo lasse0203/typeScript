@@ -1,0 +1,10 @@
+{
+  "include": ["src/assets/ts/**/*"],
+  "compilerOptions": {
+      "target": "ES2022",
+      "module": "ES2022",
+      "outDir": "src/assets/js",
+      "forceConsistentCasingInFileNames": true,
+      "strict": true
+  }
+}

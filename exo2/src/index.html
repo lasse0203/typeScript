@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type = "module" src ="./assets/js/index.mjs" defer></script>
+</head>
+<body>
+    <h1>Ajouter un Contacts</h1>
+    <form id="contact-form">
+        <input type="text" id="first-name" placeholder="Prénom" required>
+        <input type="text" id="last-name" placeholder="Nom" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="tel" id="phone" placeholder="Téléphone" required>
+        <button type="submit">Ajouter un contact</button>
+    </form>
+    <h1>Liste des  Contacts </h1>
+    <div id="contact-list"></div>
+</body>
+</html>
